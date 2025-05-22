@@ -1,3 +1,7 @@
+# Final project game (speed run mini golf)
+# May 22nd 2025
+# Ibrahim Taha
+
 import pygame
 import math
 import random
