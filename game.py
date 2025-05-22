@@ -2,6 +2,13 @@
 # May 22nd 2025
 # Ibrahim Taha
 
+# flint sessions:
+'''
+https://app.flintk12.com/activities/pygame-debug-le-1fe068/sessions/a5637832-5d02-4c2f-9260-c9a0af5129a6
+https://app.flintk12.com/activities/pygame-debug-le-1fe068/sessions/b44b9536-a10f-4ada-bf04-a6893c587daf
+https://app.flintk12.com/activities/pygame-debug-le-1fe068/sessions/0fcb07bf-b3ee-4e86-9f66-78621ff8e66a
+'''
+
 import pygame
 import math
 import random
