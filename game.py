@@ -464,7 +464,7 @@ class MiniGolfGame:
         
         # Game state
         self.current_level = 1
-        self.timer_seconds = 135  # 2 minutes and 15 seconds
+        self.timer_seconds = 100  # 1 minute and 40 seconds
         self.game_over = False
         self.game_won = False
         self.game_paused = False
@@ -690,7 +690,7 @@ class MiniGolfGame:
     
     def reset_game(self):
         self.current_level = 1
-        self.timer_seconds = 135  # 2 minutes and 15 seconds
+        self.timer_seconds = 100  # 1 minute and 40 seconds
         self.game_over = False
         self.game_won = False
         self.reset_level()
@@ -966,19 +966,19 @@ class MiniGolfGame:
         
         # Draw borders
         pygame.draw.rect(
-            self.screen, self.BROWN,
+            self.screen, self.BLUE,
             (0, 0, self.WINDOW_WIDTH, self.BORDER_THICKNESS)
         )
         pygame.draw.rect(
-            self.screen, self.BROWN,
+            self.screen, self.BLUE,
             (0, self.WINDOW_HEIGHT - self.BORDER_THICKNESS, self.WINDOW_WIDTH, self.BORDER_THICKNESS)
         )
         pygame.draw.rect(
-            self.screen, self.BROWN,
+            self.screen, self.BLUE,
             (0, 0, self.BORDER_THICKNESS, self.WINDOW_HEIGHT)
         )
         pygame.draw.rect(
-            self.screen, self.BROWN,
+            self.screen, self.BLUE,
             (self.WINDOW_WIDTH - self.BORDER_THICKNESS, 0, self.BORDER_THICKNESS, self.WINDOW_HEIGHT)
         )
         
