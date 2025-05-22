@@ -10,5 +10,6 @@ How to play:
 - Finish the game in under 2 min and 15 seconds.
 - There are moving walls, repulsors (yellow circles)
 - Follow the trajectory when shooting
+- Make sure not to get stuck on the final level
 
 good luck
